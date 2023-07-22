@@ -1,0 +1,79 @@
+body{   
+    height: 667px;
+    margin: 0px;
+    background-color: hsl(212, 45%, 89%);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* elements */
+.container{
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.image{
+    width: 288px;
+    height: 288px;
+    background-size: 288px 288px;
+    border-radius: 10px;
+    background-image: url(./image-qr-code.png);
+}
+.textOne{
+    width: 320px;
+    height: 71px;  
+    font-weight: 700;
+    font-size: 23px;
+    color: hls(218, 44%, 22%);
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textTwo{
+    width: 320px;
+    height: 107px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.textSecond{
+    width: 320px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 7px;
+    color: hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* section */
+.sectionOne{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionTwo{
+    width: 320px;
+    height: 177px;
+}
+
+p{
+    margin: 0px;
+}
+
+/* responsive */
+@media (min-width: 1400px){
+    body{    
+        height: 800px;
+    }
+}
